@@ -10,10 +10,11 @@ This project converts the [fcitx5-quwei](https://github.com/fcitx/fcitx5-quwei) 
 
 - `Sources/Quwei/` - Contains the main source files from fcitx5-quwei
   - `quwei.cpp` - Main implementation
-  - `quwei.h` - Header file
+  - `include/quwei.h` - Public header file
   - `*.conf.in*` - Configuration files
   - `CMakeLists.txt` - Original build configuration (for reference)
 - `Package.swift` - Swift Package Manager manifest
+- `CMakeLists.txt` - Root CMakeLists.txt from original project (for reference)
 - `LICENSE` - BSD-3-Clause license
 
 ## Dependencies
