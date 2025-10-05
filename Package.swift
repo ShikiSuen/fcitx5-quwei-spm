@@ -23,8 +23,9 @@ let package = Package(
         .target(
             name: "Quwei",
             dependencies: [],
+            publicHeadersPath: "include",
             cSettings: [
-                .headerSearchPath("."),
+                .headerSearchPath("include"),
             ],
             linkerSettings: [
                 // Link against fcitx5 system libraries
